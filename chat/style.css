@@ -1,0 +1,117 @@
+body {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 0 20px;
+    background-color: #1a1a1a;
+    color: #f7f7f7;
+    font-family: 'Questrial', sans-serif;
+}
+
+.container {
+    border: 2px solid rgb(0, 126, 215);
+    background-color: #353131;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 5px 0;
+}
+
+.user-container
+{
+    text-align: right;
+}
+
+.darker {
+    border-color: rgb(3, 124, 33);
+    background-color: rgb(32, 32, 32);
+}
+
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container img {
+    float: left;
+    max-width: 60px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.container img.right {
+    float: right;
+    margin-left: 20px;
+    margin-right: 0;
+}
+
+.time-right {
+    float: right;
+    color: #aaa;
+}
+
+.time-left {
+    float: left;
+    color: #999;
+}
+
+
+.input-container {
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 6px;
+
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border-radius: 6px;
+
+}
+
+.input-field:focus {
+    border: 2px solid dodgerblue;
+    border-radius: 6px;
+
+}
+
+.btn {
+    background-color: dodgerblue;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    border-radius: 6px;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.d-none
+{
+    display: none;
+}
+a {
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    color: #ffffff;
+    padding-top: 20px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+h1 {
+    font-family: montserrat, sans-serif;
+    font-size: 2.5em;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 20px;
+}
