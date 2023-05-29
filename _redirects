@@ -1,5 +1,5 @@
-# If visitor has 'nf_jwt' with role of Admin set, let them in.
-/chat.html /chat/chat.html 200! Role=admin
+# If visitor has 'nf_jwt' with role of wilkin set, let them in.
+/chat.html /chat/chat.html 200! Role=wilkin
 
 # else redirect back to login
 /chat.html /index.html 302!
