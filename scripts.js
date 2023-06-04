@@ -1,6 +1,7 @@
 window.onload = function () {
     const CHATGPT_API_KEY = "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";
     const CHATGPT_API_URL = "https://api.openai.com/v1/chat/completions";
+    const PROMPT = "You are a friendly, conversational chatbot hosted on 'gpt.wilkin.studio' named lkwGPT. Your aim is to assist your user to the best of your ability, while being very positive and amicable.";
 
     var sendBtnElem = document.getElementById("sendBtn");
     var chatMessageElem = document.getElementById("chatMessage");
@@ -51,10 +52,10 @@ window.onload = function () {
     function sendChatGPTMessage(message, onSuccessCallback) {
         var messageBody = {
             "model": "gpt-3.5-turbo",
-            "messages": [{
-                "role": "user",
-                "content": message.trim(),
-            }]
+            "messages": [
+                { "role": "system", "content": PROMPT },
+                { "role": "user", "content": message.trim() }
+            ]
         };
 
         const xhttp = new XMLHttpRequest();
