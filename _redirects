@@ -1,8 +1,18 @@
-# If visitor has 'nf_jwt' with role of wilkin set, let them in.
+# Standard edition - verified
 /chat.html /chat/chat.html 200! Role=Wilkin
 /scripts.js /scripts.js 200! Role=Wilkin
 
-# else redirect back to login
+# Standard edition - unverified
 /chat.html /index.html 302!
 /chat/chat.html /index.html 302!
 /scripts.js /index.html 302!
+
+# Demon edition - verified
+/demon.html /chat/demon.html 200! Role=Wilkin
+/demonscripts.js /demonscripts.js 200! Role=Wilkin
+
+# Demon edition - unverified
+/demon.html /index.html 302!
+/chat/demon.html /index/html 302!
+/demonscripts.js /index.html 302!
+
