@@ -1,1 +1,33 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../style.css">
+    <script type="text/javascript" src="../scripts.js"></script>
+    <title>gsaGPT</title>
+</head>
+<body>
+    <h2>lkwGPT</h2>
+    <form action="javascript:void(0)">
+        <div class="input-container">
+            <i class="fa fa-user icon"></i>
+            <input id="chatMessage"
+                   class="input-field"
+                   type="text"
+                   placeholder="Enter message..."
+                   name="usrnm">
+        </div>
+        </div>
+        <button type="submit"
+                id="sendBtn"
+                class="btn">Send</button>
+    </form>
+    <div id="loadingContainer"
+         class="container darker d-none">
+        <p>gsaGPT is thinking...</p>
+    </div>
+    <div id="chatOutput"></div>
+    <a class="padded-top" href="../index.html">Log Out</a>
+    <script src="https://lkwgpt.statuspage.io/embed/script.js"></script>
+</body>
+</html>
