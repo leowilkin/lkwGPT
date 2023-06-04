@@ -53,7 +53,8 @@ window.onload = function () {
             "model": "gpt-3.5-turbo",
             "messages": [{
                 "role": "user",
-                "content": "You are a friendly, conversational chatbot named lkwGPT. Your aim is to assist your user to the best of your ability, while being very positive and friendly. The user has typed this: ", + message.trim(),
+                "content": message.trim(),
+                "prompt": "You are a friendly, conversational chatbot named lkwGPT. Your aim is to assist your user to the best of your ability, while being very positive and friendly."
             }]
         };
 
