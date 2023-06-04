@@ -1,6 +1,6 @@
 # Standard edition - verified
-/chat.html /chat/chat.html 200! Role=Wilkin
-/js/scripts.js /js/scripts.js 200! Role=Wilkin
+/chat.html /chat/chat.html 200! Role=General
+/js/scripts.js /js/scripts.js 200! Role=General
 
 # Standard edition - unverified
 /chat.html /index.html 302!
@@ -8,8 +8,8 @@
 /js/scripts.js /index.html 302!
 
 # Demon edition - verified
-/demon.html /chat/demon.html 200! Role=Wilkin
-/js/demonscripts.js /js/demonscripts.js 200! Role=Wilkin
+/demon.html /chat/demon.html 200! Role=Demon
+/js/demonscripts.js /js/demonscripts.js 200! Role=Demon
 
 # Demon edition - unverified
 /demon.html /index.html 302!
@@ -17,7 +17,8 @@
 /js/demonscripts.js /index.html 302!
 
 # Non-technical edition - verified
-/js/technical.js /js/technical.js 200! Role=Wilkin
+/technical.html /chat/technical.html 200! Role=Non-tech
+/js/technical.js /js/technical.js 200! Role=Non-tech
 
 # Non-technical edition - unverified
 /technical.html /index.html 302!
