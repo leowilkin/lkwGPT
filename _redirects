@@ -16,3 +16,7 @@
 /chat/demon.html /index/html 302!
 /demonscripts.js /index.html 302!
 
+# Arcane JS
+/arcane.js /arcane.js 200! Role=Wilkin
+/arcane.js /index.html 302!
+
