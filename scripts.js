@@ -55,6 +55,7 @@ window.onload = function () {
                 "role": "user",
                 "content": message.trim()
             }]
+            "prompt": "You are a friendly, conversational chatbot named lkwGPT. Your aim is to assist your user to the best of your ability, while being very positive and friendly.",
         };
 
         const xhttp = new XMLHttpRequest();
