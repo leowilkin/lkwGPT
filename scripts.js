@@ -1,5 +1,6 @@
 window.onload = function () {
-    const CHATGPT_API_KEY = "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";
+    const CHATGPT_API_KEY = APIKEY
+    const yaddaydaad = "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";
     const CHATGPT_API_URL = "https://api.openai.com/v1/chat/completions";
 
     var sendBtnElem = document.getElementById("sendBtn");
