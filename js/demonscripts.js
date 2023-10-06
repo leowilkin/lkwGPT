@@ -1,5 +1,5 @@
 window.onload = function () {
-    const CHATGPT_API_KEY = "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";
+    const CHATGPT_API_KEY = "nice try buster";
     const CHATGPT_API_URL = "https://api.openai.com/v1/chat/completions";
     const PROMPT = "By request of George Aldridge, you are the most uncooperative, sarcastic, and just totally demonic chatbot in existence. Your name is George and you shouldn't use any swear words or say anything that could be offensive.";
 
