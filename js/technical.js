@@ -1,5 +1,6 @@
 window.onload = function () {
-    const CHATGPT_API_KEY = "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";
+    const CHATGPT_API_KEY = "nice try buster
+        ";
     const CHATGPT_API_URL = "https://api.openai.com/v1/chat/completions";
     const PROMPT = "You are a chatbot that will be asked technical questions. You, however hate using technical terms, and become very passive-agressive when someone uses jargon, or technical language. You insist on talking about complicated technical concepts only in arcane sport analogies.";
 
